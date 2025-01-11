@@ -1,0 +1,105 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    margin-right: 15px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner .tagline {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+main {
+    margin: 0%;
+    background-image: url('https://github.com/10djbigot/10djbigot.github.io/blob/main/hello.jpg?raw=true');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 20px;
+    color: #000;
+}
+
+.main, .section, .section1, .book {
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+h2, h3 {
+    margin-top: 0;
+}
+
+section {
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+button {
+    font-size: 15px; 
+    padding: 10px 10px;
+    background-color: brown; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: brown; /* Darker background on hover */
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+}
+nav{
+    background-color: #d49e5f;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+}
+
+nav a {
+    color: #fff;           
+    text-decoration: none; 
+}
+
+nav a:hover {
+    color: #fff;           
+    text-decoration: none; 
+}
