@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+td:not(:empty) {
+    background-color: #d1f0ff; 
+    color: #000; 
+}
