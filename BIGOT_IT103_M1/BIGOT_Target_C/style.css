@@ -1,0 +1,32 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-between; 
+        }
+
+        .box1 {
+            flex:1;
+            height: 100%;
+            box-sizing: border-box;
+            background-color: lightblue;
+        }
+
+        .box2 {
+            flex:1;
+            height: 100%;
+            box-sizing: border-box;
+            background-color: red;
+        }
+
+       footer{
+            position: fixed;
+    bottom: 0;
+    height: 50px; 
+    width: 100%; 
+    margin: 0%;
+    background-color: gray; 
+        }
